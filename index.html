@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h2 text-center mt-2">Movies catalog</h2>
+
+        <div class="row ">
+            <div class="col-4 mt-2 ">
+                <div>
+                    <form action="https://www.marvel.com">
+
+                        <input class="form-control" type="text" value="ave">
+                        <input class="form-control mt-4" type="number" value="5">
+                        <select class="form-select mt-4" aria-label="Default select example">
+                            <option value="1">All</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select mt-4" aria-label="Default select example">
+                            <option value="1">Rating</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary form-control mt-4">search </button>
+                    </form>
+
+                </div>
+                <div>
+                    <h2 class="mt-4">Bookmarked movies</h2>
+                    <div class="card" style="width: 18rem form-control">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p><strong>Avengers: infinity war</strong></p>
+                                <button type="submit" class="btn btn-danger ">Remove</button>
+                            </li>
+                            <li class="list-group-item">
+                                <p><strong>The Avengers </strong></p>
+                                <button type="submit" class="btn btn-danger ">Remove</button>
+                            </li>
+                            <li class="list-group-item">
+                                <p><strong>12 years a slave</strong></p>
+                                <button type="submit" class="btn btn-danger ">Remove</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 mt-2">
+                <h4>Search results: 39</h4>
+                <div class="alert alert-info" role="alert">
+                    Use the form on the left to search for a movie
+                </div>
+               <div class="div d-flex justify-content-between">
+                <div class="card" style="width: 26rem;">
+                    <img src="https://images6.fanpop.com/image/photos/41300000/Avengers-character-fan-art-the-avengers-41320504-300-300.jpg" class="card-img-top" alt="stark">
+                    <div class="card-body ">
+                        <h5 class="card-title">Avengers:Infinity War </h5>
+                       <div class="box d-flex"> <img src="./img/kalendar.jpg" alt="" width="25" height="25">
+                        <p class="p ms-2 ">2018</p></div>
+                        <div class="box d-flex"> <img src="./img/star.jpg" alt="" width="25" height="25">
+                            <p class="p ms-2 ">8.7</p></div>
+                        <div class="div d-flex justify-content-sm-between"> <a href="#" class="btn btn-outline-primary">Watch trailer</a>
+                            <a href="#" class="btn btn-outline-secondary">More Info</a>
+                            <a href="#" class="btn btn-outline-success">Bookmark</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 26rem;">
+                    <img src="https://store-images.s-microsoft.com/image/apps.18781.13510798882877150.0ecd2c4a-c209-480b-be55-924db715a15b.fcf30909-a6d2-4979-9703-cab089e1a4be?mode=scale&q=90&h=300&w=300" width="" class="card-img-top" alt="stark">
+                    <div class="card-body ">
+                        <h5 class="card-title">Avengers:Infinity War </h5>
+                        <div class="box d-flex"> <img src="./img/kalendar.jpg" alt="" width="25" height="25">
+                            <p class="p ms-2 ">2012</p></div>
+                            <div class="box d-flex"> <img src="./img/star.jpg" alt="" width="25" height="25">
+                                <p class="p ms-2 ">8.1</p></div>    
+                        <div class="div d-flex justify-content-sm-between"> <a href="#" class="btn btn-outline-primary">Watch trailer</a>
+                            <a href="#" class="btn btn-outline-secondary">More Info</a>
+                            <a href="#" class="btn btn-outline-success">Bookmark</a>
+                        </div>
+
+                    </div>
+                </div>
+               </div>
+
+               <nav aria-label="...">
+                <ul class="pagination pagination-sm mt-5 justify-content-center">
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">1</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                </ul>
+              </nav>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
